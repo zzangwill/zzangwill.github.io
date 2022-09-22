@@ -1,0 +1,80 @@
+html {
+    background-color: #d4e8fc;
+    
+    font-size: 12pt;
+}
+
+body   
+    {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 0px;  
+    background-size: cover;  
+    font-family: 'Tiro Devanagari Hindi', serif;
+    }  
+    header {  
+    background-color: rgb(26, 25, 25);  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 8px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: rgb(240, 240, 240);  
+    text-decoration: none;  
+    }  
+
+.navitem:hover {
+    cursor: pointer;
+}
+
+
+.link {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    padding-left: 8px;
+}
+
+.description {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+}
+
+#welcome {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 0px;
+}
+
+.photo {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+}
+
+#center {
+    align-items: center;
+}
+
+#links {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
