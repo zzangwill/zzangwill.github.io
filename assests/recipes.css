@@ -1,0 +1,83 @@
+html {
+    background-color: #d4e8fc;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+body   
+    {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 0px;  
+    background-size: cover;  
+    font-family: 'Tiro Devanagari Hindi', serif;
+    }  
+    header {  
+    background-color: rgb(26, 25, 25);  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 8px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: rgb(240, 240, 240);  
+    text-decoration: none;  
+    }  
+
+
+
+.navitem:hover {
+    cursor: pointer;
+}
+
+.navitem:active {
+    color: #F9EEB3;
+}
+
+
+#recipe {
+  font-family: 'Duru Sans', sans-serif;
+    /*  color: #333;
+    font-size: 8pt;
+    padding: 0px 20px 0px 20px; */
+}
+
+ul {
+    list-style-type: circle;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+    columns: 2;
+    list-style-position: inside;
+}
+
+a {
+    color: rgb(5, 4, 4);
+    text-decoration: none; /* no underline */
+  }
+
+/* .area {
+
+    color: #333;
+    font-size: 16pt;
+    text-align: center;
+     padding-top: 30px; */
+}
+
+
+
+.recipe {
+    color: #333;
+    font-size: 12pt;
+    
+    padding-top: 4px; 
+}
